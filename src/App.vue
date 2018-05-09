@@ -317,7 +317,17 @@ export default {
           name: "状态",
           width: 100,
           type: "select",
-          required: true
+          required: true,
+          selectOptions: [
+            {
+              name: "启用",
+              code: 0
+            },
+            {
+              name: "禁用",
+              code: 1
+            }
+          ]
         }
       ]
     };
